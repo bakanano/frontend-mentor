@@ -92,6 +92,10 @@ main {
 }
 
 button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.45rem;
     background-color: var(--primary-dark-cyan);
     color: var(--neutral-white);
     font-size: 1rem;
@@ -100,8 +104,14 @@ button {
     border: 0;
     border-radius: 0.5rem;
     cursor: pointer;
+
 }
 
 button:hover {
     background-color: var(--primary-darker-cyan);
+}
+
+.shopping-cart {
+    width: 15px;
+    height: 16px;
 }
