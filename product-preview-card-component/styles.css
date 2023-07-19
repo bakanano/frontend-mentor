@@ -1,5 +1,6 @@
 :root {
     --primary-dark-cyan: hsl(158, 36%, 37%);
+    --primary-darker-cyan: hsl(158, 36%, 15%);
     --primary-cream: hsl(30, 38%, 92%);
 
     --neutral-dark-blue: hsl(212, 21%, 14%);
@@ -57,7 +58,7 @@ main {
     --padding-space: 1.5rem;
     --gap-space: 1rem;
     background-color: var(--neutral-white);
-    border-radius: 0.5rem;
+    border-radius: 1rem;
 }
 
 .product-content {
@@ -90,3 +91,17 @@ main {
     color: var(--primary-dark-cyan);
 }
 
+button {
+    background-color: var(--primary-dark-cyan);
+    color: var(--neutral-white);
+    font-size: 1rem;
+    font-weight: var(--fw-500);
+    padding: 1rem 0.5rem;
+    border: 0;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--primary-darker-cyan);
+}
