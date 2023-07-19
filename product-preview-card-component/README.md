@@ -1,6 +1,7 @@
 # Product Preview Card Component
 Challenge from [Frontend Mentor](https://www.frontendmentor.io/home)
 
+[Live](https://bakanano-product-preview-card.netlify.app/)
 # Things Learned 
 * Locally scoped CSS variables
 * Using srcset attribute to implement responsive images
