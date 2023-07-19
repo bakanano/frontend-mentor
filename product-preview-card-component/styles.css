@@ -30,6 +30,10 @@ input, button, textarea, select {
     font: inherit;
 }
 
+h1 {
+    line-height: 1;
+}
+
 p, h1, h2, h3, h4, h5, h6 {
     overflow-wrap: break-word;
 }
@@ -46,15 +50,43 @@ body {
 }
 
 main {
-    background-color: var(--neutral-white);
     margin: 1rem;
 }
 
-.product-content {
-    padding: 1.5rem;
+.product {
+    --padding-space: 1.5rem;
+    --gap-space: 1rem;
+    background-color: var(--neutral-white);
+    border-radius: 0.5rem;
 }
 
-.item-category {
-    letter-spacing: 0.3rem;
+.product-content {
+    display: grid;  
+    padding: var(--padding-space);
+    gap: var(--gap-space);
+}
+
+.product-category {
+    font-size: 0.75 rem;
+    letter-spacing: 5px;
+}
+
+.product-title {
+    font-size: 2rem;
+    font-family: var(--ff-secondary);
+    color: var(--neutral-dark-blue);
+}
+
+.product-pricing {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.product-pricing > .current-pricing {
+    font-size: 2rem;
+    font-family: var(--ff-secondary);
+    color: var(--primary-dark-cyan);
 }
 
