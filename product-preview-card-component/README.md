@@ -5,3 +5,6 @@ Challenge from [Frontend Mentor](https://www.frontendmentor.io/home)
 * Locally scoped CSS variables
 * Using srcset attribute to implement responsive images
 * Using Grid and Flexbox together
+* Mobile-first design
+
+# Screenshots
