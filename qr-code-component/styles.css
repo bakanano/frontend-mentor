@@ -1,0 +1,47 @@
+:root {
+    --white: hsl(0, 0%, 100%);
+    --light-grey: hsl(212, 45%, 89%);
+    --greyish-blue: hsl(220, 15%, 55%);
+    --dark-blue: hsl(218, 44%, 22%);
+--fw-bold: 700;
+    --ff-main: "Outfit", sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: var(--light-grey);
+}
+
+h1, p {
+    text-align: center;
+    font-family: var(--ff-main);
+    padding: 0.625rem;
+}
+
+h1 {
+    font-weight: var(--fw-bold);
+}
+
+p {
+    color: var(--greyish-blue);
+    font-size: 15px;
+}
+
+main, img {
+    border-radius: 0.555rem;
+}
+
+main {
+    background-color: var(--white);
+    padding: 1rem;
+    margin: 1rem;
+}
+
+@media(min-width: 500px) {
+    main {
+        max-width: 500px;
+    }
+}
